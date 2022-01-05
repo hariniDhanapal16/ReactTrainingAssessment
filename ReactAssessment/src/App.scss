@@ -1,0 +1,146 @@
+$backgroundBlue:#586d99;
+$colorWhite:#fff;
+$colorRed:#f00;
+$lightBlue:#3452b4;
+$grey:#ccc;
+$lightGrey:#eee;
+$colorBlack:#656565;
+$fontSize14:14px;
+$fontSize12:12px;
+
+.App {
+  text-align: center;
+  margin:20px 40px;
+}
+
+.logout{
+  float:right;
+  background-color:$colorRed;
+  color:$colorWhite;
+}
+
+/*Modal Styling*/
+.modal .modal-header {
+  background-color: $backgroundBlue;
+  color: $colorWhite;
+  border-bottom: 1px solid $backgroundBlue;
+  padding: 5px 10px;
+  border-radius:0;
+}
+.modal .modal-header .btn-close {
+  padding: 5px 10px;
+  font-size: $fontSize12;
+}
+.modal .modal-content {
+border:none;
+}
+label, p {
+  font-size:$fontSize14;
+  font-weight: 600;
+}
+span {
+font-size:$fontSize14;
+}
+.modal .btn-secondary,.modal .btn-secondary:hover {
+  padding: 5px 7px;
+  background-color:$lightGrey;
+  border: 1px solid $lightGrey;
+  color: $colorBlack;
+  font-size:$fontSize14;
+}
+.modal .btn-primary,.modal .btn-primary:hover {
+padding: 5px 7px;
+background-color:$backgroundBlue;
+border: 1px solid $backgroundBlue;
+color: $colorWhite;
+font-size:14px;
+}
+.RequestLockButton{
+background-color:$lightBlue;
+color:$colorWhite;
+padding:5px 7px;
+border:1px solid $lightBlue;
+font-size:13px;
+margin: 3px 0 0 60px;
+border-radius:5px;
+}
+.fa-lock {
+margin-right:5px;
+}
+
+.fa-times {
+  color:$colorWhite;
+}
+
+#approveLock .modal-body label {
+width:150px;
+color:$lightBlue;
+}
+#approveLock .modal-body div {
+margin-bottom:10px;
+}
+.StatusMsg {
+  text-decoration: underline;
+  color: #530081;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 10px;
+
+}
+.Headings {
+color:$lightBlue;
+text-decoration: underline;
+}
+
+/*Grid Styles*/
+.k-grid {
+  width:100% !important;
+}
+.k-grid .k-grid-header{
+  background-color: $backgroundBlue;
+  color: $colorWhite;
+}
+.k-grid .k-pager-wrap {
+  background-color: $backgroundBlue;
+  color: $colorWhite;
+  padding: 0 10px;
+}
+.k-grid .k-pager-numbers .k-link.k-state-selected {
+  color: $colorBlack !important;
+  background-color:$colorWhite;
+  min-width: 20px;
+  height: 20px;
+  margin-top:5px;
+}
+.k-grid tbody tr:hover,.k-grid tr.k-alt {
+  background-color:$colorWhite !important;
+}
+.k-grid td {
+  border-color: $grey !important;
+  border-width: 1px 1px 0px 0px !important;
+  padding:0 8px !important;
+}
+.k-grid td:last-child {
+  border:none  !important;
+}
+.k-grid td.skillColumnStyle:last-child {
+  border-right: 1px solid $grey !important;
+}
+.k-grid td.skillColumnStyle{
+  border-bottom: 1px solid $grey !important;
+}
+.k-grid-content {
+  border: 1px solid $grey !important;
+  overflow-y: auto !important;
+}
+.btn-default{
+  padding:3px 10px !important;
+  background-color: $lightGrey !important;
+  color:$lightBlue !important;
+  border: 1px solid $lightBlue !important;
+  border-radius: 0px !important;
+  margin: 5px !important;
+}
+.k-pager-numbers .k-link {
+  color: $colorWhite !important;
+} 
